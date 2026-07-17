@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, Mail, Lock } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth.jsx';
-import Layout from '../../components/Layout.jsx';
 import toast from 'react-hot-toast';
+import { Layout } from '../../components/Layout.jsx';
 
 export default function Login() {
   const { login } = useAuth();

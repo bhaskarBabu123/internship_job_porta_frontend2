@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Rocket } from 'lucide-react';
 
-export function Layout({ title, subtitle, children }) {
+function Layout({ title, subtitle, children }) {
   return (
     <div className="min-h-screen flex font-[IBM_Plex_Sans]">
       <style>{`
@@ -62,3 +62,5 @@ export function Layout({ title, subtitle, children }) {
     </div>
   );
 }
+
+export default Layout;
